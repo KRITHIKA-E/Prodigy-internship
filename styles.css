@@ -1,0 +1,72 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 0;
+    display: block;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+#content {
+    margin-top: 60px; /* Adjust this based on the height of your nav */
+}
+
+section {
+    padding: 60px 20px;
+    height: 100vh;
+}
+
+#home {
+    background: #f4f4f4;
+}
+
+#about {
+    background: #e2e2e2;
+}
+
+#services {
+    background: #d0d0d0;
+}
+
+#contact {
+    background: #bebebe;
+}
+
+/* Scroll effect */
+.scrolled {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
